@@ -2,11 +2,9 @@ import React from "react";
 
 const Test = () => {
     const ref = React.useRef(null);
-    var isResizing = false,
-        lastDownX = 0;
+    var isResizing = false;
     const mouseHandler = (e) => {
         isResizing = true;
-        lastDownX = e.clientX;
     };
     document.onmouseup = function (e) {
         isResizing = false;
