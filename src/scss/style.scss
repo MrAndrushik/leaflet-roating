@@ -170,6 +170,14 @@ a {
     background: rgb(229, 231, 253);
 }
 
+.leaflet-left {
+    right: 0 !important;
+}
+
+.leaflet-left .leaflet-control {
+    margin-right: 15px !important;
+}
+
 // NAVBAR END
 
 // MAP START
